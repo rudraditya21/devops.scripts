@@ -55,3 +55,12 @@ nav:
       - dry-run.sh: scripts/shared/safety/dry-run.md
       - confirm-dangerous.sh: scripts/shared/safety/confirm-dangerous.md
       - audit-event.sh: scripts/shared/safety/audit-event.md
+  - setup/local:
+      - install-cli-tools.sh: scripts/setup/local/install-cli-tools.md
+      - setup-shell.sh: scripts/setup/local/setup-shell.md
+      - setup-ssh.sh: scripts/setup/local/setup-ssh.md
+      - setup-gpg.sh: scripts/setup/local/setup-gpg.md
+      - configure-git.sh: scripts/setup/local/configure-git.md
+      - configure-kubectl.sh: scripts/setup/local/configure-kubectl.md
+      - configure-terraform.sh: scripts/setup/local/configure-terraform.md
+      - verify-workstation.sh: scripts/setup/local/verify-workstation.md
