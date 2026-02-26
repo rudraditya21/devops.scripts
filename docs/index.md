@@ -30,8 +30,8 @@ This documentation site tracks all scripts in the repository with operationally 
 ## Build Docs Locally
 
 ```bash
-python3 -m pip install mkdocs mkdocs-material
-mkdocs serve
+make docs-install
+make docs-serve
 ```
 
 ## Documentation Policy
