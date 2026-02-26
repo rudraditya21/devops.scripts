@@ -1,17 +1,23 @@
 site_name: DevOps Scripts Library
 site_description: Industry-grade automation scripts for cloud, platform, CI/CD, databases, security, and SRE.
-site_url: https://github.com/rudraditya21/devops.scripts
+site_url: !ENV [SITE_URL, "http://127.0.0.1:8000/"]
+repo_url: https://github.com/rudraditya21/devops.scripts
 repo_name: devops.scripts
 docs_dir: docs
 site_dir: site
 strict: true
 
 theme:
-  name: mkdocs
-  language: en
+  name: shadcn
+  show_title: true
+  show_stargazers: true
+  pygments_style: github-dark
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -21,7 +27,7 @@ markdown_extensions:
   - md_in_html
   - tables
   - toc:
-      permalink: true
+      permalink: false
 
 nav:
   - Home: index.md
