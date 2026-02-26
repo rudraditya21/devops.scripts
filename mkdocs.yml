@@ -1,0 +1,30 @@
+site_name: DevOps Scripts Library
+site_description: Industry-grade automation scripts for cloud, platform, CI/CD, databases, security, and SRE.
+site_url: https://github.com/rudraditya21/devops.scripts
+repo_name: devops.scripts
+docs_dir: docs
+site_dir: site
+strict: true
+
+theme:
+  name: mkdocs
+  language: en
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Standards: standards.md
+  - Contribution: contributing.md
+  - Script Documentation Spec: script-spec.md
