@@ -10,7 +10,7 @@ strict: true
 theme:
   name: shadcn
   show_title: true
-  show_stargazers: true
+  show_stargazers: false
   pygments_style: github-dark
 
 plugins:
@@ -64,3 +64,10 @@ nav:
       - configure-kubectl.sh: scripts/setup/local/configure-kubectl.md
       - configure-terraform.sh: scripts/setup/local/configure-terraform.md
       - verify-workstation.sh: scripts/setup/local/verify-workstation.md
+  - setup/runner:
+      - bootstrap-linux-runner.sh: scripts/setup/runner/bootstrap-linux-runner.md
+      - bootstrap-macos-runner.sh: scripts/setup/runner/bootstrap-macos-runner.md
+      - install-docker.sh: scripts/setup/runner/install-docker.md
+      - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
+      - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
+      - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
