@@ -48,3 +48,10 @@ nav:
       - tmpdir.sh: scripts/shared/core/tmpdir.md
       - os-detect.sh: scripts/shared/core/os-detect.md
       - cleanup-trap.sh: scripts/shared/core/cleanup-trap.md
+  - shared/safety:
+      - retry.sh: scripts/shared/safety/retry.md
+      - with-timeout.sh: scripts/shared/safety/with-timeout.md
+      - file-lock.sh: scripts/shared/safety/file-lock.md
+      - dry-run.sh: scripts/shared/safety/dry-run.md
+      - confirm-dangerous.sh: scripts/shared/safety/confirm-dangerous.md
+      - audit-event.sh: scripts/shared/safety/audit-event.md
