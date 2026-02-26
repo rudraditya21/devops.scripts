@@ -37,3 +37,14 @@ nav:
   - Standards: standards.md
   - Contribution: contributing.md
   - Script Documentation Spec: script-spec.md
+  - shared/core:
+      - log-info.sh: scripts/shared/core/log-info.md
+      - log-warn.sh: scripts/shared/core/log-warn.md
+      - log-error.sh: scripts/shared/core/log-error.md
+      - require-cmd.sh: scripts/shared/core/require-cmd.md
+      - require-env.sh: scripts/shared/core/require-env.md
+      - parse-args.sh: scripts/shared/core/parse-args.md
+      - json-output.sh: scripts/shared/core/json-output.md
+      - tmpdir.sh: scripts/shared/core/tmpdir.md
+      - os-detect.sh: scripts/shared/core/os-detect.md
+      - cleanup-trap.sh: scripts/shared/core/cleanup-trap.md
