@@ -46,6 +46,15 @@ nav:
       - tag-instance.sh: scripts/cloud/aws/ec2/tag-instance.md
       - create-ami.sh: scripts/cloud/aws/ec2/create-ami.md
       - healthcheck.sh: scripts/cloud/aws/ec2/healthcheck.md
+  - cloud/aws/s3:
+      - create-bucket.sh: scripts/cloud/aws/s3/create-bucket.md
+      - delete-bucket.sh: scripts/cloud/aws/s3/delete-bucket.md
+      - list-buckets.sh: scripts/cloud/aws/s3/list-buckets.md
+      - sync-upload.sh: scripts/cloud/aws/s3/sync-upload.md
+      - sync-download.sh: scripts/cloud/aws/s3/sync-download.md
+      - enable-versioning.sh: scripts/cloud/aws/s3/enable-versioning.md
+      - set-lifecycle.sh: scripts/cloud/aws/s3/set-lifecycle.md
+      - public-access-block.sh: scripts/cloud/aws/s3/public-access-block.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
