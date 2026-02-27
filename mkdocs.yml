@@ -71,3 +71,14 @@ nav:
       - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
       - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
       - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
+  - git:
+      - branch-create.sh: scripts/git/branch-create.md
+      - branch-delete.sh: scripts/git/branch-delete.md
+      - rebase-safe.sh: scripts/git/rebase-safe.md
+      - squash-branch.sh: scripts/git/squash-branch.md
+      - tag-release.sh: scripts/git/tag-release.md
+      - generate-changelog.sh: scripts/git/generate-changelog.md
+      - validate-commit-msg.sh: scripts/git/validate-commit-msg.md
+      - pre-push-check.sh: scripts/git/pre-push-check.md
+      - repo-healthcheck.sh: scripts/git/repo-healthcheck.md
+      - clean-stale-branches.sh: scripts/git/clean-stale-branches.md
