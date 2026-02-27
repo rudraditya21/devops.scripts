@@ -46,6 +46,13 @@ nav:
       - tag-instance.sh: scripts/cloud/aws/ec2/tag-instance.md
       - create-ami.sh: scripts/cloud/aws/ec2/create-ami.md
       - healthcheck.sh: scripts/cloud/aws/ec2/healthcheck.md
+  - cloud/aws/iam:
+      - create-role.sh: scripts/cloud/aws/iam/create-role.md
+      - attach-policy.sh: scripts/cloud/aws/iam/attach-policy.md
+      - detach-policy.sh: scripts/cloud/aws/iam/detach-policy.md
+      - rotate-access-keys.sh: scripts/cloud/aws/iam/rotate-access-keys.md
+      - audit-users.sh: scripts/cloud/aws/iam/audit-users.md
+      - least-privilege-report.sh: scripts/cloud/aws/iam/least-privilege-report.md
   - cloud/aws/s3:
       - create-bucket.sh: scripts/cloud/aws/s3/create-bucket.md
       - delete-bucket.sh: scripts/cloud/aws/s3/delete-bucket.md
