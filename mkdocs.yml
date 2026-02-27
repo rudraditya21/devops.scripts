@@ -37,40 +37,6 @@ nav:
   - Standards: standards.md
   - Contribution: contributing.md
   - Script Documentation Spec: script-spec.md
-  - shared/core:
-      - log-info.sh: scripts/shared/core/log-info.md
-      - log-warn.sh: scripts/shared/core/log-warn.md
-      - log-error.sh: scripts/shared/core/log-error.md
-      - require-cmd.sh: scripts/shared/core/require-cmd.md
-      - require-env.sh: scripts/shared/core/require-env.md
-      - parse-args.sh: scripts/shared/core/parse-args.md
-      - json-output.sh: scripts/shared/core/json-output.md
-      - tmpdir.sh: scripts/shared/core/tmpdir.md
-      - os-detect.sh: scripts/shared/core/os-detect.md
-      - cleanup-trap.sh: scripts/shared/core/cleanup-trap.md
-  - shared/safety:
-      - retry.sh: scripts/shared/safety/retry.md
-      - with-timeout.sh: scripts/shared/safety/with-timeout.md
-      - file-lock.sh: scripts/shared/safety/file-lock.md
-      - dry-run.sh: scripts/shared/safety/dry-run.md
-      - confirm-dangerous.sh: scripts/shared/safety/confirm-dangerous.md
-      - audit-event.sh: scripts/shared/safety/audit-event.md
-  - setup/local:
-      - install-cli-tools.sh: scripts/setup/local/install-cli-tools.md
-      - setup-shell.sh: scripts/setup/local/setup-shell.md
-      - setup-ssh.sh: scripts/setup/local/setup-ssh.md
-      - setup-gpg.sh: scripts/setup/local/setup-gpg.md
-      - configure-git.sh: scripts/setup/local/configure-git.md
-      - configure-kubectl.sh: scripts/setup/local/configure-kubectl.md
-      - configure-terraform.sh: scripts/setup/local/configure-terraform.md
-      - verify-workstation.sh: scripts/setup/local/verify-workstation.md
-  - setup/runner:
-      - bootstrap-linux-runner.sh: scripts/setup/runner/bootstrap-linux-runner.md
-      - bootstrap-macos-runner.sh: scripts/setup/runner/bootstrap-macos-runner.md
-      - install-docker.sh: scripts/setup/runner/install-docker.md
-      - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
-      - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
-      - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
   - cloud/aws/ec2:
       - list-instances.sh: scripts/cloud/aws/ec2/list-instances.md
       - start-instance.sh: scripts/cloud/aws/ec2/start-instance.md
@@ -91,3 +57,37 @@ nav:
       - pre-push-check.sh: scripts/git/pre-push-check.md
       - repo-healthcheck.sh: scripts/git/repo-healthcheck.md
       - clean-stale-branches.sh: scripts/git/clean-stale-branches.md
+  - setup/local:
+      - install-cli-tools.sh: scripts/setup/local/install-cli-tools.md
+      - setup-shell.sh: scripts/setup/local/setup-shell.md
+      - setup-ssh.sh: scripts/setup/local/setup-ssh.md
+      - setup-gpg.sh: scripts/setup/local/setup-gpg.md
+      - configure-git.sh: scripts/setup/local/configure-git.md
+      - configure-kubectl.sh: scripts/setup/local/configure-kubectl.md
+      - configure-terraform.sh: scripts/setup/local/configure-terraform.md
+      - verify-workstation.sh: scripts/setup/local/verify-workstation.md
+  - setup/runner:
+      - bootstrap-linux-runner.sh: scripts/setup/runner/bootstrap-linux-runner.md
+      - bootstrap-macos-runner.sh: scripts/setup/runner/bootstrap-macos-runner.md
+      - install-docker.sh: scripts/setup/runner/install-docker.md
+      - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
+      - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
+      - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
+  - shared/core:
+      - log-info.sh: scripts/shared/core/log-info.md
+      - log-warn.sh: scripts/shared/core/log-warn.md
+      - log-error.sh: scripts/shared/core/log-error.md
+      - require-cmd.sh: scripts/shared/core/require-cmd.md
+      - require-env.sh: scripts/shared/core/require-env.md
+      - parse-args.sh: scripts/shared/core/parse-args.md
+      - json-output.sh: scripts/shared/core/json-output.md
+      - tmpdir.sh: scripts/shared/core/tmpdir.md
+      - os-detect.sh: scripts/shared/core/os-detect.md
+      - cleanup-trap.sh: scripts/shared/core/cleanup-trap.md
+  - shared/safety:
+      - retry.sh: scripts/shared/safety/retry.md
+      - with-timeout.sh: scripts/shared/safety/with-timeout.md
+      - file-lock.sh: scripts/shared/safety/file-lock.md
+      - dry-run.sh: scripts/shared/safety/dry-run.md
+      - confirm-dangerous.sh: scripts/shared/safety/confirm-dangerous.md
+      - audit-event.sh: scripts/shared/safety/audit-event.md
