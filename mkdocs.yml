@@ -71,6 +71,15 @@ nav:
       - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
       - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
       - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
+  - cloud/aws/ec2:
+      - list-instances.sh: scripts/cloud/aws/ec2/list-instances.md
+      - start-instance.sh: scripts/cloud/aws/ec2/start-instance.md
+      - stop-instance.sh: scripts/cloud/aws/ec2/stop-instance.md
+      - reboot-instance.sh: scripts/cloud/aws/ec2/reboot-instance.md
+      - resize-instance.sh: scripts/cloud/aws/ec2/resize-instance.md
+      - tag-instance.sh: scripts/cloud/aws/ec2/tag-instance.md
+      - create-ami.sh: scripts/cloud/aws/ec2/create-ami.md
+      - healthcheck.sh: scripts/cloud/aws/ec2/healthcheck.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
