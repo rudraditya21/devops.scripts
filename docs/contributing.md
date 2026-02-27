@@ -17,6 +17,9 @@ This project accepts contributions for scripts, tests, documentation, and develo
 
 ## Local Setup
 
+1. Fork the repository on GitHub (`rudraditya21/devops.scripts` -> your account).
+2. Clone your fork and install docs dependencies:
+
 ```bash
 git clone https://github.com/<your-username>/devops.scripts.git
 cd devops.scripts
