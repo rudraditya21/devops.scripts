@@ -62,6 +62,13 @@ nav:
       - enable-versioning.sh: scripts/cloud/aws/s3/enable-versioning.md
       - set-lifecycle.sh: scripts/cloud/aws/s3/set-lifecycle.md
       - public-access-block.sh: scripts/cloud/aws/s3/public-access-block.md
+  - cloud/aws/vpc:
+      - create-vpc.sh: scripts/cloud/aws/vpc/create-vpc.md
+      - create-subnets.sh: scripts/cloud/aws/vpc/create-subnets.md
+      - create-nat-gateway.sh: scripts/cloud/aws/vpc/create-nat-gateway.md
+      - create-route-tables.sh: scripts/cloud/aws/vpc/create-route-tables.md
+      - delete-vpc-stack.sh: scripts/cloud/aws/vpc/delete-vpc-stack.md
+      - vpc-healthcheck.sh: scripts/cloud/aws/vpc/vpc-healthcheck.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
