@@ -62,6 +62,13 @@ nav:
       - rotate-access-keys.sh: scripts/cloud/aws/iam/rotate-access-keys.md
       - audit-users.sh: scripts/cloud/aws/iam/audit-users.md
       - least-privilege-report.sh: scripts/cloud/aws/iam/least-privilege-report.md
+  - cloud/aws/rds:
+      - create-instance.sh: scripts/cloud/aws/rds/create-instance.md
+      - delete-instance.sh: scripts/cloud/aws/rds/delete-instance.md
+      - snapshot-create.sh: scripts/cloud/aws/rds/snapshot-create.md
+      - snapshot-restore.sh: scripts/cloud/aws/rds/snapshot-restore.md
+      - modify-instance.sh: scripts/cloud/aws/rds/modify-instance.md
+      - rds-healthcheck.sh: scripts/cloud/aws/rds/rds-healthcheck.md
   - cloud/aws/s3:
       - create-bucket.sh: scripts/cloud/aws/s3/create-bucket.md
       - delete-bucket.sh: scripts/cloud/aws/s3/delete-bucket.md
