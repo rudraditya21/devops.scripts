@@ -46,6 +46,15 @@ nav:
       - tag-instance.sh: scripts/cloud/aws/ec2/tag-instance.md
       - create-ami.sh: scripts/cloud/aws/ec2/create-ami.md
       - healthcheck.sh: scripts/cloud/aws/ec2/healthcheck.md
+  - cloud/aws/eks:
+      - create-cluster.sh: scripts/cloud/aws/eks/create-cluster.md
+      - delete-cluster.sh: scripts/cloud/aws/eks/delete-cluster.md
+      - upgrade-cluster.sh: scripts/cloud/aws/eks/upgrade-cluster.md
+      - create-nodegroup.sh: scripts/cloud/aws/eks/create-nodegroup.md
+      - scale-nodegroup.sh: scripts/cloud/aws/eks/scale-nodegroup.md
+      - delete-nodegroup.sh: scripts/cloud/aws/eks/delete-nodegroup.md
+      - kubeconfig-update.sh: scripts/cloud/aws/eks/kubeconfig-update.md
+      - cluster-healthcheck.sh: scripts/cloud/aws/eks/cluster-healthcheck.md
   - cloud/aws/iam:
       - create-role.sh: scripts/cloud/aws/iam/create-role.md
       - attach-policy.sh: scripts/cloud/aws/iam/attach-policy.md
