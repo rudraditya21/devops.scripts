@@ -85,6 +85,30 @@ nav:
       - create-route-tables.sh: scripts/cloud/aws/vpc/create-route-tables.md
       - delete-vpc-stack.sh: scripts/cloud/aws/vpc/delete-vpc-stack.md
       - vpc-healthcheck.sh: scripts/cloud/aws/vpc/vpc-healthcheck.md
+  - cloud/gcp/compute:
+      - list-instances.sh: scripts/cloud/gcp/compute/list-instances.md
+      - start-instance.sh: scripts/cloud/gcp/compute/start-instance.md
+      - stop-instance.sh: scripts/cloud/gcp/compute/stop-instance.md
+  - cloud/gcp/gke:
+      - create-cluster.sh: scripts/cloud/gcp/gke/create-cluster.md
+      - delete-cluster.sh: scripts/cloud/gcp/gke/delete-cluster.md
+      - cluster-healthcheck.sh: scripts/cloud/gcp/gke/cluster-healthcheck.md
+  - cloud/azure/vm:
+      - list-vms.sh: scripts/cloud/azure/vm/list-vms.md
+      - start-vm.sh: scripts/cloud/azure/vm/start-vm.md
+      - stop-vm.sh: scripts/cloud/azure/vm/stop-vm.md
+  - cloud/azure/aks:
+      - create-cluster.sh: scripts/cloud/azure/aks/create-cluster.md
+      - delete-cluster.sh: scripts/cloud/azure/aks/delete-cluster.md
+      - cluster-healthcheck.sh: scripts/cloud/azure/aks/cluster-healthcheck.md
+  - databases/postgres:
+      - backup.sh: scripts/databases/postgres/backup.md
+      - restore.sh: scripts/databases/postgres/restore.md
+      - healthcheck.sh: scripts/databases/postgres/healthcheck.md
+  - databases/mysql:
+      - backup.sh: scripts/databases/mysql/backup.md
+      - restore.sh: scripts/databases/mysql/restore.md
+      - healthcheck.sh: scripts/databases/mysql/healthcheck.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
