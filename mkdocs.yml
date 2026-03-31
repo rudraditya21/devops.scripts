@@ -21,6 +21,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/code-copy.js
+  - javascripts/script-count.js
 
 markdown_extensions:
   - admonition
@@ -121,6 +122,7 @@ nav:
       - repo-healthcheck.sh: scripts/git/repo-healthcheck.md
       - clean-stale-branches.sh: scripts/git/clean-stale-branches.md
   - setup/local:
+      - cleanup.sh: scripts/setup/local/cleanup.md
       - install-cli-tools.sh: scripts/setup/local/install-cli-tools.md
       - setup-shell.sh: scripts/setup/local/setup-shell.md
       - setup-ssh.sh: scripts/setup/local/setup-ssh.md
@@ -132,10 +134,26 @@ nav:
   - setup/runner:
       - bootstrap-linux-runner.sh: scripts/setup/runner/bootstrap-linux-runner.md
       - bootstrap-macos-runner.sh: scripts/setup/runner/bootstrap-macos-runner.md
+      - cleanup.sh: scripts/setup/runner/cleanup.md
+      - configure.sh: scripts/setup/runner/configure.md
       - install-docker.sh: scripts/setup/runner/install-docker.md
       - install-k8s-tools.sh: scripts/setup/runner/install-k8s-tools.md
       - install-cloud-clis.sh: scripts/setup/runner/install-cloud-clis.md
       - runner-healthcheck.sh: scripts/setup/runner/runner-healthcheck.md
+  - setup/ci-agent:
+      - cleanup.sh: scripts/setup/ci-agent/cleanup.md
+      - configure.sh: scripts/setup/ci-agent/configure.md
+  - setup/kube-workstation:
+      - cleanup.sh: scripts/setup/kube-workstation/cleanup.md
+      - install.sh: scripts/setup/kube-workstation/install.md
+      - verify.sh: scripts/setup/kube-workstation/verify.md
+  - setup/db-tools:
+      - cleanup.sh: scripts/setup/db-tools/cleanup.md
+      - configure.sh: scripts/setup/db-tools/configure.md
+      - verify.sh: scripts/setup/db-tools/verify.md
+  - setup/security-tools:
+      - cleanup.sh: scripts/setup/security-tools/cleanup.md
+      - verify.sh: scripts/setup/security-tools/verify.md
   - shared/core:
       - log-info.sh: scripts/shared/core/log-info.md
       - log-warn.sh: scripts/shared/core/log-warn.md
@@ -154,3 +172,23 @@ nav:
       - dry-run.sh: scripts/shared/safety/dry-run.md
       - confirm-dangerous.sh: scripts/shared/safety/confirm-dangerous.md
       - audit-event.sh: scripts/shared/safety/audit-event.md
+  - shared/logging:
+      - doc.sh: scripts/shared/logging/doc.md
+      - example.sh: scripts/shared/logging/example.md
+      - test.sh: scripts/shared/logging/test.md
+  - shared/validation:
+      - doc.sh: scripts/shared/validation/doc.md
+      - example.sh: scripts/shared/validation/example.md
+      - test.sh: scripts/shared/validation/test.md
+  - shared/retry:
+      - doc.sh: scripts/shared/retry/doc.md
+      - example.sh: scripts/shared/retry/example.md
+      - test.sh: scripts/shared/retry/test.md
+  - shared/timeout:
+      - doc.sh: scripts/shared/timeout/doc.md
+      - example.sh: scripts/shared/timeout/example.md
+      - test.sh: scripts/shared/timeout/test.md
+  - shared/lock:
+      - doc.sh: scripts/shared/lock/doc.md
+      - example.sh: scripts/shared/lock/example.md
+      - test.sh: scripts/shared/lock/test.md

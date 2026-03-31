@@ -77,3 +77,26 @@ article .typography pre.is-copied .code-copy-button {
 footer .text-muted-foreground.w-full.text-center.text-xs.leading-loose.sm\:text-sm {
   display: none;
 }
+
+/* Header badge showing the total script count from docs navigation links. */
+.script-total-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.75rem;
+  padding: 0 0.65rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .script-total-badge {
+    display: none;
+  }
+}
