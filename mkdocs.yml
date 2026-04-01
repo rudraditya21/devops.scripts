@@ -110,6 +110,60 @@ nav:
       - backup.sh: scripts/databases/mysql/backup.md
       - restore.sh: scripts/databases/mysql/restore.md
       - healthcheck.sh: scripts/databases/mysql/healthcheck.md
+  - backup/filesystem:
+      - backup.sh: scripts/backup/filesystem/backup.md
+      - restore.sh: scripts/backup/filesystem/restore.md
+      - verify.sh: scripts/backup/filesystem/verify.md
+      - retention-cleanup.sh: scripts/backup/filesystem/retention-cleanup.md
+      - dr-test.sh: scripts/backup/filesystem/dr-test.md
+  - backup/object-storage:
+      - backup.sh: scripts/backup/object-storage/backup.md
+      - restore.sh: scripts/backup/object-storage/restore.md
+      - verify.sh: scripts/backup/object-storage/verify.md
+      - retention-cleanup.sh: scripts/backup/object-storage/retention-cleanup.md
+      - dr-test.sh: scripts/backup/object-storage/dr-test.md
+  - backup/block-volume:
+      - backup.sh: scripts/backup/block-volume/backup.md
+      - restore.sh: scripts/backup/block-volume/restore.md
+      - verify.sh: scripts/backup/block-volume/verify.md
+      - retention-cleanup.sh: scripts/backup/block-volume/retention-cleanup.md
+      - dr-test.sh: scripts/backup/block-volume/dr-test.md
+  - backup/database:
+      - backup.sh: scripts/backup/database/backup.md
+      - restore.sh: scripts/backup/database/restore.md
+      - verify.sh: scripts/backup/database/verify.md
+      - retention-cleanup.sh: scripts/backup/database/retention-cleanup.md
+      - dr-test.sh: scripts/backup/database/dr-test.md
+  - backup/vm:
+      - backup.sh: scripts/backup/vm/backup.md
+      - restore.sh: scripts/backup/vm/restore.md
+      - verify.sh: scripts/backup/vm/verify.md
+      - retention-cleanup.sh: scripts/backup/vm/retention-cleanup.md
+      - dr-test.sh: scripts/backup/vm/dr-test.md
+  - backup/kubernetes:
+      - backup.sh: scripts/backup/kubernetes/backup.md
+      - restore.sh: scripts/backup/kubernetes/restore.md
+      - verify.sh: scripts/backup/kubernetes/verify.md
+      - retention-cleanup.sh: scripts/backup/kubernetes/retention-cleanup.md
+      - dr-test.sh: scripts/backup/kubernetes/dr-test.md
+  - backup/etcd:
+      - backup.sh: scripts/backup/etcd/backup.md
+      - restore.sh: scripts/backup/etcd/restore.md
+      - verify.sh: scripts/backup/etcd/verify.md
+      - retention-cleanup.sh: scripts/backup/etcd/retention-cleanup.md
+      - dr-test.sh: scripts/backup/etcd/dr-test.md
+  - backup/git-repo:
+      - backup.sh: scripts/backup/git-repo/backup.md
+      - restore.sh: scripts/backup/git-repo/restore.md
+      - verify.sh: scripts/backup/git-repo/verify.md
+      - retention-cleanup.sh: scripts/backup/git-repo/retention-cleanup.md
+      - dr-test.sh: scripts/backup/git-repo/dr-test.md
+  - backup/config:
+      - backup.sh: scripts/backup/config/backup.md
+      - restore.sh: scripts/backup/config/restore.md
+      - verify.sh: scripts/backup/config/verify.md
+      - retention-cleanup.sh: scripts/backup/config/retention-cleanup.md
+      - dr-test.sh: scripts/backup/config/dr-test.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
