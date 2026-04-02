@@ -164,6 +164,42 @@ nav:
       - verify.sh: scripts/backup/config/verify.md
       - retention-cleanup.sh: scripts/backup/config/retention-cleanup.md
       - dr-test.sh: scripts/backup/config/dr-test.md
+  - cost/aws:
+      - report.sh: scripts/cost/aws/report.md
+      - budget-check.sh: scripts/cost/aws/budget-check.md
+      - anomaly-detect.sh: scripts/cost/aws/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/aws/rightsizing.md
+      - recommendations-export.sh: scripts/cost/aws/recommendations-export.md
+  - cost/gcp:
+      - report.sh: scripts/cost/gcp/report.md
+      - budget-check.sh: scripts/cost/gcp/budget-check.md
+      - anomaly-detect.sh: scripts/cost/gcp/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/gcp/rightsizing.md
+      - recommendations-export.sh: scripts/cost/gcp/recommendations-export.md
+  - cost/azure:
+      - report.sh: scripts/cost/azure/report.md
+      - budget-check.sh: scripts/cost/azure/budget-check.md
+      - anomaly-detect.sh: scripts/cost/azure/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/azure/rightsizing.md
+      - recommendations-export.sh: scripts/cost/azure/recommendations-export.md
+  - cost/kubernetes:
+      - report.sh: scripts/cost/kubernetes/report.md
+      - budget-check.sh: scripts/cost/kubernetes/budget-check.md
+      - anomaly-detect.sh: scripts/cost/kubernetes/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/kubernetes/rightsizing.md
+      - recommendations-export.sh: scripts/cost/kubernetes/recommendations-export.md
+  - cost/database:
+      - report.sh: scripts/cost/database/report.md
+      - budget-check.sh: scripts/cost/database/budget-check.md
+      - anomaly-detect.sh: scripts/cost/database/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/database/rightsizing.md
+      - recommendations-export.sh: scripts/cost/database/recommendations-export.md
+  - cost/storage:
+      - report.sh: scripts/cost/storage/report.md
+      - budget-check.sh: scripts/cost/storage/budget-check.md
+      - anomaly-detect.sh: scripts/cost/storage/anomaly-detect.md
+      - rightsizing.sh: scripts/cost/storage/rightsizing.md
+      - recommendations-export.sh: scripts/cost/storage/recommendations-export.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
