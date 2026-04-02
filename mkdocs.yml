@@ -296,6 +296,34 @@ nav:
       - pre-push-check.sh: scripts/git/pre-push-check.md
       - repo-healthcheck.sh: scripts/git/repo-healthcheck.md
       - clean-stale-branches.sh: scripts/git/clean-stale-branches.md
+  - git/branch:
+      - validate.sh: scripts/git/branch/validate.md
+      - healthcheck.sh: scripts/git/branch/healthcheck.md
+  - git/commit:
+      - create.sh: scripts/git/commit/create.md
+      - cleanup.sh: scripts/git/commit/cleanup.md
+      - sync.sh: scripts/git/commit/sync.md
+      - healthcheck.sh: scripts/git/commit/healthcheck.md
+  - git/tag:
+      - validate.sh: scripts/git/tag/validate.md
+      - cleanup.sh: scripts/git/tag/cleanup.md
+      - sync.sh: scripts/git/tag/sync.md
+      - healthcheck.sh: scripts/git/tag/healthcheck.md
+  - git/release:
+      - validate.sh: scripts/git/release/validate.md
+      - cleanup.sh: scripts/git/release/cleanup.md
+      - sync.sh: scripts/git/release/sync.md
+      - healthcheck.sh: scripts/git/release/healthcheck.md
+  - git/repo:
+      - create.sh: scripts/git/repo/create.md
+      - validate.sh: scripts/git/repo/validate.md
+      - cleanup.sh: scripts/git/repo/cleanup.md
+      - sync.sh: scripts/git/repo/sync.md
+  - git/hook:
+      - create.sh: scripts/git/hook/create.md
+      - cleanup.sh: scripts/git/hook/cleanup.md
+      - sync.sh: scripts/git/hook/sync.md
+      - healthcheck.sh: scripts/git/hook/healthcheck.md
   - setup/local:
       - cleanup.sh: scripts/setup/local/cleanup.md
       - install-cli-tools.sh: scripts/setup/local/install-cli-tools.md
