@@ -105,11 +105,123 @@ nav:
   - databases/postgres:
       - backup.sh: scripts/databases/postgres/backup.md
       - restore.sh: scripts/databases/postgres/restore.md
+      - migrate.sh: scripts/databases/postgres/migrate.md
+      - schema-diff.sh: scripts/databases/postgres/schema-diff.md
+      - user-create.sh: scripts/databases/postgres/user-create.md
+      - rotate-password.sh: scripts/databases/postgres/rotate-password.md
+      - replication-check.sh: scripts/databases/postgres/replication-check.md
+      - performance-report.sh: scripts/databases/postgres/performance-report.md
       - healthcheck.sh: scripts/databases/postgres/healthcheck.md
   - databases/mysql:
       - backup.sh: scripts/databases/mysql/backup.md
       - restore.sh: scripts/databases/mysql/restore.md
+      - migrate.sh: scripts/databases/mysql/migrate.md
+      - schema-diff.sh: scripts/databases/mysql/schema-diff.md
+      - user-create.sh: scripts/databases/mysql/user-create.md
+      - rotate-password.sh: scripts/databases/mysql/rotate-password.md
+      - replication-check.sh: scripts/databases/mysql/replication-check.md
+      - performance-report.sh: scripts/databases/mysql/performance-report.md
       - healthcheck.sh: scripts/databases/mysql/healthcheck.md
+  - databases/mariadb:
+      - backup.sh: scripts/databases/mariadb/backup.md
+      - restore.sh: scripts/databases/mariadb/restore.md
+      - migrate.sh: scripts/databases/mariadb/migrate.md
+      - schema-diff.sh: scripts/databases/mariadb/schema-diff.md
+      - user-create.sh: scripts/databases/mariadb/user-create.md
+      - rotate-password.sh: scripts/databases/mariadb/rotate-password.md
+      - replication-check.sh: scripts/databases/mariadb/replication-check.md
+      - performance-report.sh: scripts/databases/mariadb/performance-report.md
+      - healthcheck.sh: scripts/databases/mariadb/healthcheck.md
+  - databases/mongodb:
+      - backup.sh: scripts/databases/mongodb/backup.md
+      - restore.sh: scripts/databases/mongodb/restore.md
+      - migrate.sh: scripts/databases/mongodb/migrate.md
+      - schema-diff.sh: scripts/databases/mongodb/schema-diff.md
+      - user-create.sh: scripts/databases/mongodb/user-create.md
+      - rotate-password.sh: scripts/databases/mongodb/rotate-password.md
+      - replication-check.sh: scripts/databases/mongodb/replication-check.md
+      - performance-report.sh: scripts/databases/mongodb/performance-report.md
+      - healthcheck.sh: scripts/databases/mongodb/healthcheck.md
+  - databases/redis:
+      - backup.sh: scripts/databases/redis/backup.md
+      - restore.sh: scripts/databases/redis/restore.md
+      - migrate.sh: scripts/databases/redis/migrate.md
+      - schema-diff.sh: scripts/databases/redis/schema-diff.md
+      - user-create.sh: scripts/databases/redis/user-create.md
+      - rotate-password.sh: scripts/databases/redis/rotate-password.md
+      - replication-check.sh: scripts/databases/redis/replication-check.md
+      - performance-report.sh: scripts/databases/redis/performance-report.md
+      - healthcheck.sh: scripts/databases/redis/healthcheck.md
+  - databases/cassandra:
+      - backup.sh: scripts/databases/cassandra/backup.md
+      - restore.sh: scripts/databases/cassandra/restore.md
+      - migrate.sh: scripts/databases/cassandra/migrate.md
+      - schema-diff.sh: scripts/databases/cassandra/schema-diff.md
+      - user-create.sh: scripts/databases/cassandra/user-create.md
+      - rotate-password.sh: scripts/databases/cassandra/rotate-password.md
+      - replication-check.sh: scripts/databases/cassandra/replication-check.md
+      - performance-report.sh: scripts/databases/cassandra/performance-report.md
+      - healthcheck.sh: scripts/databases/cassandra/healthcheck.md
+  - databases/elasticsearch:
+      - backup.sh: scripts/databases/elasticsearch/backup.md
+      - restore.sh: scripts/databases/elasticsearch/restore.md
+      - migrate.sh: scripts/databases/elasticsearch/migrate.md
+      - schema-diff.sh: scripts/databases/elasticsearch/schema-diff.md
+      - user-create.sh: scripts/databases/elasticsearch/user-create.md
+      - rotate-password.sh: scripts/databases/elasticsearch/rotate-password.md
+      - replication-check.sh: scripts/databases/elasticsearch/replication-check.md
+      - performance-report.sh: scripts/databases/elasticsearch/performance-report.md
+      - healthcheck.sh: scripts/databases/elasticsearch/healthcheck.md
+  - databases/opensearch:
+      - backup.sh: scripts/databases/opensearch/backup.md
+      - restore.sh: scripts/databases/opensearch/restore.md
+      - migrate.sh: scripts/databases/opensearch/migrate.md
+      - schema-diff.sh: scripts/databases/opensearch/schema-diff.md
+      - user-create.sh: scripts/databases/opensearch/user-create.md
+      - rotate-password.sh: scripts/databases/opensearch/rotate-password.md
+      - replication-check.sh: scripts/databases/opensearch/replication-check.md
+      - performance-report.sh: scripts/databases/opensearch/performance-report.md
+      - healthcheck.sh: scripts/databases/opensearch/healthcheck.md
+  - databases/clickhouse:
+      - backup.sh: scripts/databases/clickhouse/backup.md
+      - restore.sh: scripts/databases/clickhouse/restore.md
+      - migrate.sh: scripts/databases/clickhouse/migrate.md
+      - schema-diff.sh: scripts/databases/clickhouse/schema-diff.md
+      - user-create.sh: scripts/databases/clickhouse/user-create.md
+      - rotate-password.sh: scripts/databases/clickhouse/rotate-password.md
+      - replication-check.sh: scripts/databases/clickhouse/replication-check.md
+      - performance-report.sh: scripts/databases/clickhouse/performance-report.md
+      - healthcheck.sh: scripts/databases/clickhouse/healthcheck.md
+  - databases/neo4j:
+      - backup.sh: scripts/databases/neo4j/backup.md
+      - restore.sh: scripts/databases/neo4j/restore.md
+      - migrate.sh: scripts/databases/neo4j/migrate.md
+      - schema-diff.sh: scripts/databases/neo4j/schema-diff.md
+      - user-create.sh: scripts/databases/neo4j/user-create.md
+      - rotate-password.sh: scripts/databases/neo4j/rotate-password.md
+      - replication-check.sh: scripts/databases/neo4j/replication-check.md
+      - performance-report.sh: scripts/databases/neo4j/performance-report.md
+      - healthcheck.sh: scripts/databases/neo4j/healthcheck.md
+  - databases/sqlserver:
+      - backup.sh: scripts/databases/sqlserver/backup.md
+      - restore.sh: scripts/databases/sqlserver/restore.md
+      - migrate.sh: scripts/databases/sqlserver/migrate.md
+      - schema-diff.sh: scripts/databases/sqlserver/schema-diff.md
+      - user-create.sh: scripts/databases/sqlserver/user-create.md
+      - rotate-password.sh: scripts/databases/sqlserver/rotate-password.md
+      - replication-check.sh: scripts/databases/sqlserver/replication-check.md
+      - performance-report.sh: scripts/databases/sqlserver/performance-report.md
+      - healthcheck.sh: scripts/databases/sqlserver/healthcheck.md
+  - databases/oracle:
+      - backup.sh: scripts/databases/oracle/backup.md
+      - restore.sh: scripts/databases/oracle/restore.md
+      - migrate.sh: scripts/databases/oracle/migrate.md
+      - schema-diff.sh: scripts/databases/oracle/schema-diff.md
+      - user-create.sh: scripts/databases/oracle/user-create.md
+      - rotate-password.sh: scripts/databases/oracle/rotate-password.md
+      - replication-check.sh: scripts/databases/oracle/replication-check.md
+      - performance-report.sh: scripts/databases/oracle/performance-report.md
+      - healthcheck.sh: scripts/databases/oracle/healthcheck.md
   - backup/filesystem:
       - backup.sh: scripts/backup/filesystem/backup.md
       - restore.sh: scripts/backup/filesystem/restore.md
