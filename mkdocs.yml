@@ -200,6 +200,66 @@ nav:
       - anomaly-detect.sh: scripts/cost/storage/anomaly-detect.md
       - rightsizing.sh: scripts/cost/storage/rightsizing.md
       - recommendations-export.sh: scripts/cost/storage/recommendations-export.md
+  - networking/dns:
+      - create.sh: scripts/networking/dns/create.md
+      - update.sh: scripts/networking/dns/update.md
+      - delete.sh: scripts/networking/dns/delete.md
+      - audit.sh: scripts/networking/dns/audit.md
+      - healthcheck.sh: scripts/networking/dns/healthcheck.md
+  - networking/loadbalancer:
+      - create.sh: scripts/networking/loadbalancer/create.md
+      - update.sh: scripts/networking/loadbalancer/update.md
+      - delete.sh: scripts/networking/loadbalancer/delete.md
+      - audit.sh: scripts/networking/loadbalancer/audit.md
+      - healthcheck.sh: scripts/networking/loadbalancer/healthcheck.md
+  - networking/firewall:
+      - create.sh: scripts/networking/firewall/create.md
+      - update.sh: scripts/networking/firewall/update.md
+      - delete.sh: scripts/networking/firewall/delete.md
+      - audit.sh: scripts/networking/firewall/audit.md
+      - healthcheck.sh: scripts/networking/firewall/healthcheck.md
+  - networking/ingress:
+      - create.sh: scripts/networking/ingress/create.md
+      - update.sh: scripts/networking/ingress/update.md
+      - delete.sh: scripts/networking/ingress/delete.md
+      - audit.sh: scripts/networking/ingress/audit.md
+      - healthcheck.sh: scripts/networking/ingress/healthcheck.md
+  - networking/egress:
+      - create.sh: scripts/networking/egress/create.md
+      - update.sh: scripts/networking/egress/update.md
+      - delete.sh: scripts/networking/egress/delete.md
+      - audit.sh: scripts/networking/egress/audit.md
+      - healthcheck.sh: scripts/networking/egress/healthcheck.md
+  - networking/vpn:
+      - create.sh: scripts/networking/vpn/create.md
+      - update.sh: scripts/networking/vpn/update.md
+      - delete.sh: scripts/networking/vpn/delete.md
+      - audit.sh: scripts/networking/vpn/audit.md
+      - healthcheck.sh: scripts/networking/vpn/healthcheck.md
+  - networking/peering:
+      - create.sh: scripts/networking/peering/create.md
+      - update.sh: scripts/networking/peering/update.md
+      - delete.sh: scripts/networking/peering/delete.md
+      - audit.sh: scripts/networking/peering/audit.md
+      - healthcheck.sh: scripts/networking/peering/healthcheck.md
+  - networking/nat:
+      - create.sh: scripts/networking/nat/create.md
+      - update.sh: scripts/networking/nat/update.md
+      - delete.sh: scripts/networking/nat/delete.md
+      - audit.sh: scripts/networking/nat/audit.md
+      - healthcheck.sh: scripts/networking/nat/healthcheck.md
+  - networking/gateway:
+      - create.sh: scripts/networking/gateway/create.md
+      - update.sh: scripts/networking/gateway/update.md
+      - delete.sh: scripts/networking/gateway/delete.md
+      - audit.sh: scripts/networking/gateway/audit.md
+      - healthcheck.sh: scripts/networking/gateway/healthcheck.md
+  - networking/cidr:
+      - create.sh: scripts/networking/cidr/create.md
+      - update.sh: scripts/networking/cidr/update.md
+      - delete.sh: scripts/networking/cidr/delete.md
+      - audit.sh: scripts/networking/cidr/audit.md
+      - healthcheck.sh: scripts/networking/cidr/healthcheck.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
