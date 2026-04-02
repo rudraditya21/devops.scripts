@@ -260,6 +260,31 @@ nav:
       - delete.sh: scripts/networking/cidr/delete.md
       - audit.sh: scripts/networking/cidr/audit.md
       - healthcheck.sh: scripts/networking/cidr/healthcheck.md
+  - sre/incident:
+      - generate.sh: scripts/sre/incident/generate.md
+      - sync.sh: scripts/sre/incident/sync.md
+      - report.sh: scripts/sre/incident/report.md
+      - healthcheck.sh: scripts/sre/incident/healthcheck.md
+  - sre/oncall:
+      - generate.sh: scripts/sre/oncall/generate.md
+      - sync.sh: scripts/sre/oncall/sync.md
+      - report.sh: scripts/sre/oncall/report.md
+      - healthcheck.sh: scripts/sre/oncall/healthcheck.md
+  - sre/slo:
+      - generate.sh: scripts/sre/slo/generate.md
+      - sync.sh: scripts/sre/slo/sync.md
+      - report.sh: scripts/sre/slo/report.md
+      - healthcheck.sh: scripts/sre/slo/healthcheck.md
+  - sre/error-budget:
+      - generate.sh: scripts/sre/error-budget/generate.md
+      - sync.sh: scripts/sre/error-budget/sync.md
+      - report.sh: scripts/sre/error-budget/report.md
+      - healthcheck.sh: scripts/sre/error-budget/healthcheck.md
+  - sre/runbook:
+      - generate.sh: scripts/sre/runbook/generate.md
+      - sync.sh: scripts/sre/runbook/sync.md
+      - report.sh: scripts/sre/runbook/report.md
+      - healthcheck.sh: scripts/sre/runbook/healthcheck.md
   - git:
       - branch-create.sh: scripts/git/branch-create.md
       - branch-delete.sh: scripts/git/branch-delete.md
