@@ -200,6 +200,76 @@ nav:
       - anomaly-detect.sh: scripts/cost/storage/anomaly-detect.md
       - rightsizing.sh: scripts/cost/storage/rightsizing.md
       - recommendations-export.sh: scripts/cost/storage/recommendations-export.md
+  - monitoring/prometheus:
+      - install.sh: scripts/monitoring/prometheus/install.md
+      - configure.sh: scripts/monitoring/prometheus/configure.md
+      - alert-sync.sh: scripts/monitoring/prometheus/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/prometheus/dashboard-sync.md
+      - query.sh: scripts/monitoring/prometheus/query.md
+      - healthcheck.sh: scripts/monitoring/prometheus/healthcheck.md
+  - monitoring/grafana:
+      - install.sh: scripts/monitoring/grafana/install.md
+      - configure.sh: scripts/monitoring/grafana/configure.md
+      - alert-sync.sh: scripts/monitoring/grafana/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/grafana/dashboard-sync.md
+      - query.sh: scripts/monitoring/grafana/query.md
+      - healthcheck.sh: scripts/monitoring/grafana/healthcheck.md
+  - monitoring/loki:
+      - install.sh: scripts/monitoring/loki/install.md
+      - configure.sh: scripts/monitoring/loki/configure.md
+      - alert-sync.sh: scripts/monitoring/loki/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/loki/dashboard-sync.md
+      - query.sh: scripts/monitoring/loki/query.md
+      - healthcheck.sh: scripts/monitoring/loki/healthcheck.md
+  - monitoring/tempo:
+      - install.sh: scripts/monitoring/tempo/install.md
+      - configure.sh: scripts/monitoring/tempo/configure.md
+      - alert-sync.sh: scripts/monitoring/tempo/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/tempo/dashboard-sync.md
+      - query.sh: scripts/monitoring/tempo/query.md
+      - healthcheck.sh: scripts/monitoring/tempo/healthcheck.md
+  - monitoring/elastic-stack:
+      - install.sh: scripts/monitoring/elastic-stack/install.md
+      - configure.sh: scripts/monitoring/elastic-stack/configure.md
+      - alert-sync.sh: scripts/monitoring/elastic-stack/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/elastic-stack/dashboard-sync.md
+      - query.sh: scripts/monitoring/elastic-stack/query.md
+      - healthcheck.sh: scripts/monitoring/elastic-stack/healthcheck.md
+  - monitoring/datadog:
+      - install.sh: scripts/monitoring/datadog/install.md
+      - configure.sh: scripts/monitoring/datadog/configure.md
+      - alert-sync.sh: scripts/monitoring/datadog/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/datadog/dashboard-sync.md
+      - query.sh: scripts/monitoring/datadog/query.md
+      - healthcheck.sh: scripts/monitoring/datadog/healthcheck.md
+  - monitoring/newrelic:
+      - install.sh: scripts/monitoring/newrelic/install.md
+      - configure.sh: scripts/monitoring/newrelic/configure.md
+      - alert-sync.sh: scripts/monitoring/newrelic/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/newrelic/dashboard-sync.md
+      - query.sh: scripts/monitoring/newrelic/query.md
+      - healthcheck.sh: scripts/monitoring/newrelic/healthcheck.md
+  - monitoring/zabbix:
+      - install.sh: scripts/monitoring/zabbix/install.md
+      - configure.sh: scripts/monitoring/zabbix/configure.md
+      - alert-sync.sh: scripts/monitoring/zabbix/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/zabbix/dashboard-sync.md
+      - query.sh: scripts/monitoring/zabbix/query.md
+      - healthcheck.sh: scripts/monitoring/zabbix/healthcheck.md
+  - monitoring/nagios:
+      - install.sh: scripts/monitoring/nagios/install.md
+      - configure.sh: scripts/monitoring/nagios/configure.md
+      - alert-sync.sh: scripts/monitoring/nagios/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/nagios/dashboard-sync.md
+      - query.sh: scripts/monitoring/nagios/query.md
+      - healthcheck.sh: scripts/monitoring/nagios/healthcheck.md
+  - monitoring/sentry:
+      - install.sh: scripts/monitoring/sentry/install.md
+      - configure.sh: scripts/monitoring/sentry/configure.md
+      - alert-sync.sh: scripts/monitoring/sentry/alert-sync.md
+      - dashboard-sync.sh: scripts/monitoring/sentry/dashboard-sync.md
+      - query.sh: scripts/monitoring/sentry/query.md
+      - healthcheck.sh: scripts/monitoring/sentry/healthcheck.md
   - networking/dns:
       - create.sh: scripts/networking/dns/create.md
       - update.sh: scripts/networking/dns/update.md
