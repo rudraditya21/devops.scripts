@@ -222,6 +222,86 @@ nav:
       - replication-check.sh: scripts/databases/oracle/replication-check.md
       - performance-report.sh: scripts/databases/oracle/performance-report.md
       - healthcheck.sh: scripts/databases/oracle/healthcheck.md
+  - security/vuln-scan:
+      - run.sh: scripts/security/vuln-scan/run.md
+      - report.sh: scripts/security/vuln-scan/report.md
+      - enforce.sh: scripts/security/vuln-scan/enforce.md
+      - rollback.sh: scripts/security/vuln-scan/rollback.md
+      - schedule.sh: scripts/security/vuln-scan/schedule.md
+      - dry-run.sh: scripts/security/vuln-scan/dry-run.md
+      - healthcheck.sh: scripts/security/vuln-scan/healthcheck.md
+  - security/iam-audit:
+      - run.sh: scripts/security/iam-audit/run.md
+      - report.sh: scripts/security/iam-audit/report.md
+      - enforce.sh: scripts/security/iam-audit/enforce.md
+      - rollback.sh: scripts/security/iam-audit/rollback.md
+      - schedule.sh: scripts/security/iam-audit/schedule.md
+      - dry-run.sh: scripts/security/iam-audit/dry-run.md
+      - healthcheck.sh: scripts/security/iam-audit/healthcheck.md
+  - security/cert-management:
+      - run.sh: scripts/security/cert-management/run.md
+      - report.sh: scripts/security/cert-management/report.md
+      - enforce.sh: scripts/security/cert-management/enforce.md
+      - rollback.sh: scripts/security/cert-management/rollback.md
+      - schedule.sh: scripts/security/cert-management/schedule.md
+      - dry-run.sh: scripts/security/cert-management/dry-run.md
+      - healthcheck.sh: scripts/security/cert-management/healthcheck.md
+  - security/secrets-rotation:
+      - run.sh: scripts/security/secrets-rotation/run.md
+      - report.sh: scripts/security/secrets-rotation/report.md
+      - enforce.sh: scripts/security/secrets-rotation/enforce.md
+      - rollback.sh: scripts/security/secrets-rotation/rollback.md
+      - schedule.sh: scripts/security/secrets-rotation/schedule.md
+      - dry-run.sh: scripts/security/secrets-rotation/dry-run.md
+      - healthcheck.sh: scripts/security/secrets-rotation/healthcheck.md
+  - security/compliance:
+      - run.sh: scripts/security/compliance/run.md
+      - report.sh: scripts/security/compliance/report.md
+      - enforce.sh: scripts/security/compliance/enforce.md
+      - rollback.sh: scripts/security/compliance/rollback.md
+      - schedule.sh: scripts/security/compliance/schedule.md
+      - dry-run.sh: scripts/security/compliance/dry-run.md
+      - healthcheck.sh: scripts/security/compliance/healthcheck.md
+  - security/cis-benchmark:
+      - run.sh: scripts/security/cis-benchmark/run.md
+      - report.sh: scripts/security/cis-benchmark/report.md
+      - enforce.sh: scripts/security/cis-benchmark/enforce.md
+      - rollback.sh: scripts/security/cis-benchmark/rollback.md
+      - schedule.sh: scripts/security/cis-benchmark/schedule.md
+      - dry-run.sh: scripts/security/cis-benchmark/dry-run.md
+      - healthcheck.sh: scripts/security/cis-benchmark/healthcheck.md
+  - security/sbom:
+      - run.sh: scripts/security/sbom/run.md
+      - report.sh: scripts/security/sbom/report.md
+      - enforce.sh: scripts/security/sbom/enforce.md
+      - rollback.sh: scripts/security/sbom/rollback.md
+      - schedule.sh: scripts/security/sbom/schedule.md
+      - dry-run.sh: scripts/security/sbom/dry-run.md
+      - healthcheck.sh: scripts/security/sbom/healthcheck.md
+  - security/signing:
+      - run.sh: scripts/security/signing/run.md
+      - report.sh: scripts/security/signing/report.md
+      - enforce.sh: scripts/security/signing/enforce.md
+      - rollback.sh: scripts/security/signing/rollback.md
+      - schedule.sh: scripts/security/signing/schedule.md
+      - dry-run.sh: scripts/security/signing/dry-run.md
+      - healthcheck.sh: scripts/security/signing/healthcheck.md
+  - security/runtime-policy:
+      - run.sh: scripts/security/runtime-policy/run.md
+      - report.sh: scripts/security/runtime-policy/report.md
+      - enforce.sh: scripts/security/runtime-policy/enforce.md
+      - rollback.sh: scripts/security/runtime-policy/rollback.md
+      - schedule.sh: scripts/security/runtime-policy/schedule.md
+      - dry-run.sh: scripts/security/runtime-policy/dry-run.md
+      - healthcheck.sh: scripts/security/runtime-policy/healthcheck.md
+  - security/waf:
+      - run.sh: scripts/security/waf/run.md
+      - report.sh: scripts/security/waf/report.md
+      - enforce.sh: scripts/security/waf/enforce.md
+      - rollback.sh: scripts/security/waf/rollback.md
+      - schedule.sh: scripts/security/waf/schedule.md
+      - dry-run.sh: scripts/security/waf/dry-run.md
+      - healthcheck.sh: scripts/security/waf/healthcheck.md
   - backup/filesystem:
       - backup.sh: scripts/backup/filesystem/backup.md
       - restore.sh: scripts/backup/filesystem/restore.md
