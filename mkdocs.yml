@@ -222,6 +222,86 @@ nav:
       - replication-check.sh: scripts/databases/oracle/replication-check.md
       - performance-report.sh: scripts/databases/oracle/performance-report.md
       - healthcheck.sh: scripts/databases/oracle/healthcheck.md
+  - infrastructure/terraform:
+      - plan.sh: scripts/infrastructure/terraform/plan.md
+      - apply.sh: scripts/infrastructure/terraform/apply.md
+      - destroy.sh: scripts/infrastructure/terraform/destroy.md
+      - validate.sh: scripts/infrastructure/terraform/validate.md
+      - lint.sh: scripts/infrastructure/terraform/lint.md
+      - drift-detect.sh: scripts/infrastructure/terraform/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/terraform/state-backup.md
+  - infrastructure/terragrunt:
+      - plan.sh: scripts/infrastructure/terragrunt/plan.md
+      - apply.sh: scripts/infrastructure/terragrunt/apply.md
+      - destroy.sh: scripts/infrastructure/terragrunt/destroy.md
+      - validate.sh: scripts/infrastructure/terragrunt/validate.md
+      - lint.sh: scripts/infrastructure/terragrunt/lint.md
+      - drift-detect.sh: scripts/infrastructure/terragrunt/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/terragrunt/state-backup.md
+  - infrastructure/pulumi:
+      - plan.sh: scripts/infrastructure/pulumi/plan.md
+      - apply.sh: scripts/infrastructure/pulumi/apply.md
+      - destroy.sh: scripts/infrastructure/pulumi/destroy.md
+      - validate.sh: scripts/infrastructure/pulumi/validate.md
+      - lint.sh: scripts/infrastructure/pulumi/lint.md
+      - drift-detect.sh: scripts/infrastructure/pulumi/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/pulumi/state-backup.md
+  - infrastructure/ansible:
+      - plan.sh: scripts/infrastructure/ansible/plan.md
+      - apply.sh: scripts/infrastructure/ansible/apply.md
+      - destroy.sh: scripts/infrastructure/ansible/destroy.md
+      - validate.sh: scripts/infrastructure/ansible/validate.md
+      - lint.sh: scripts/infrastructure/ansible/lint.md
+      - drift-detect.sh: scripts/infrastructure/ansible/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/ansible/state-backup.md
+  - infrastructure/packer:
+      - plan.sh: scripts/infrastructure/packer/plan.md
+      - apply.sh: scripts/infrastructure/packer/apply.md
+      - destroy.sh: scripts/infrastructure/packer/destroy.md
+      - validate.sh: scripts/infrastructure/packer/validate.md
+      - lint.sh: scripts/infrastructure/packer/lint.md
+      - drift-detect.sh: scripts/infrastructure/packer/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/packer/state-backup.md
+  - infrastructure/cloudformation:
+      - plan.sh: scripts/infrastructure/cloudformation/plan.md
+      - apply.sh: scripts/infrastructure/cloudformation/apply.md
+      - destroy.sh: scripts/infrastructure/cloudformation/destroy.md
+      - validate.sh: scripts/infrastructure/cloudformation/validate.md
+      - lint.sh: scripts/infrastructure/cloudformation/lint.md
+      - drift-detect.sh: scripts/infrastructure/cloudformation/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/cloudformation/state-backup.md
+  - infrastructure/bicep:
+      - plan.sh: scripts/infrastructure/bicep/plan.md
+      - apply.sh: scripts/infrastructure/bicep/apply.md
+      - destroy.sh: scripts/infrastructure/bicep/destroy.md
+      - validate.sh: scripts/infrastructure/bicep/validate.md
+      - lint.sh: scripts/infrastructure/bicep/lint.md
+      - drift-detect.sh: scripts/infrastructure/bicep/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/bicep/state-backup.md
+  - infrastructure/cdk:
+      - plan.sh: scripts/infrastructure/cdk/plan.md
+      - apply.sh: scripts/infrastructure/cdk/apply.md
+      - destroy.sh: scripts/infrastructure/cdk/destroy.md
+      - validate.sh: scripts/infrastructure/cdk/validate.md
+      - lint.sh: scripts/infrastructure/cdk/lint.md
+      - drift-detect.sh: scripts/infrastructure/cdk/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/cdk/state-backup.md
+  - infrastructure/crossplane:
+      - plan.sh: scripts/infrastructure/crossplane/plan.md
+      - apply.sh: scripts/infrastructure/crossplane/apply.md
+      - destroy.sh: scripts/infrastructure/crossplane/destroy.md
+      - validate.sh: scripts/infrastructure/crossplane/validate.md
+      - lint.sh: scripts/infrastructure/crossplane/lint.md
+      - drift-detect.sh: scripts/infrastructure/crossplane/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/crossplane/state-backup.md
+  - infrastructure/helmfile:
+      - plan.sh: scripts/infrastructure/helmfile/plan.md
+      - apply.sh: scripts/infrastructure/helmfile/apply.md
+      - destroy.sh: scripts/infrastructure/helmfile/destroy.md
+      - validate.sh: scripts/infrastructure/helmfile/validate.md
+      - lint.sh: scripts/infrastructure/helmfile/lint.md
+      - drift-detect.sh: scripts/infrastructure/helmfile/drift-detect.md
+      - state-backup.sh: scripts/infrastructure/helmfile/state-backup.md
   - security/vuln-scan:
       - run.sh: scripts/security/vuln-scan/run.md
       - report.sh: scripts/security/vuln-scan/report.md
